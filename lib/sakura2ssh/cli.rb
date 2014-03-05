@@ -56,7 +56,7 @@ module Sakura2ssh
             comment = server['Zone']['Description'] + " " + server['Zone']['Region']['Name']
             server = server['Interfaces'].first['UserIPAddress'] # FIXME: Error Handling #.map{|net| net['UserIPAddress']}
             if server == nil
-              server = ""
+              next # FIXME:
             end
             # Display
             result += <<-"EOS" # .split("\n").map{|a|a.lstrip}.join('')
