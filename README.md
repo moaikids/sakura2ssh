@@ -8,7 +8,7 @@ $ gem install sakura2ssh
 # How to use
 ### 1. create configuration file
 ```
-$ vim sakura2ssh.conf
+$ vim <config_file>
 ---
 ssh_config: <ssh_config_file_path>
 apikey:
