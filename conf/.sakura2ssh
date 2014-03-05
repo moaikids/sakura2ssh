@@ -1,0 +1,6 @@
+---
+ssh_config: <ssh_config_file_path>
+apikey:
+  access_token: <access_token>
+  access_token_secret: <access_token_secret>
+user: 
