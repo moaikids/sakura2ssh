@@ -20,7 +20,7 @@ user:
 
 ### 2. run sakura2ssh
 ```
-$ sakukra2ssh --config <config_file>
+$ sakukra2ssh update --config <config_file>
 ```
 
 # License
